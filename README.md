@@ -16,7 +16,13 @@ export AALTO_PASSWORD=your_password
 export AALTO_HIDE='Kie-98.9420 Kie-98.9410 SCI3027.kand'
 ````
 
-## Running
+## How to run
 ````
 node assignments.js
 ````
+
+### FAQ
+
+#### The app gets stuck at Loading...
+
+Make sure AALTO_USERNAME and AALTO_PASSWORD are correct. There are no error handling what-so-ever.
