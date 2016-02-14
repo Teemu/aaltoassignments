@@ -1,5 +1,7 @@
 # Aalto Assignments
-Gets a list of upcoming assignments from MyCourses
+Gets a list of upcoming assignments from MyCourses. Never miss a deadline again.
+
+![Screenshot](http://i.imgur.com/1ncYXE5.png)
 
 ## Install
 ````bash
