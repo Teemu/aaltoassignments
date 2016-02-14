@@ -36,8 +36,6 @@ function *run() {
           var assignmentDateText = assignment.querySelector('.info').textContent.split(': ')[1];
           var assignmentDetails = assignment.querySelector('.details').textContent;
           var assignmentDate = new Date(assignmentDateText);
-          console.log(assignmentDateText);
-          console.log(assignmentDate);
           if (!assignmentDetails.includes('Submitted')) {
             assignments.push({
               name: assignmentName,
